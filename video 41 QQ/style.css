@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Segoe UI";
+}
+ul{
+    display: flex;
+    margin: 17px 0 0 45px;
+}
+ul li{
+    list-style: none;
+    padding: 22px 23px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+span{
+    font-weight: bolder;
+    font-size: 12px;
+}
+.logo{
+    margin: 18px 19% 0 0;
+}

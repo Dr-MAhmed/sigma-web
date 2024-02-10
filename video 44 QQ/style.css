@@ -1,0 +1,87 @@
+/* .logo {  
+} */
+
+.logo img{
+    width: 164px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.right ul li span{
+    padding: 0 5px;
+}
+
+/* MAIN CONTENT STARTS HERE */
+body {
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto; /* Center the container */
+    max-width: 1200px; /* Optional: Limit container width */
+  }
+
+  .card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Segoe UI";
+    font-weight: bolder;
+  }
+
+  /* For demonstration purposes */
+  .card:nth-child(even) {
+    background-color: #e0e0e0;
+  }
+
+  .card h2 {
+    margin-top: 0;
+  }
+  .btn{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border-radius: 7px;
+  }
+  .bg-1{
+    background-color: #00b6d1;
+  }
+  .bg-2{
+    background-color: #81c780;
+  }
+  .para{
+    color: gray!important;
+    font-weight: 100!important;
+    visibility: hidden;
+    margin-bottom: 40px;
+  }
+  .para1{
+    color: gray!important;
+    font-weight: 100!important;
+    /* visibility: hidden; */
+    margin-bottom: 40px;
+  }
