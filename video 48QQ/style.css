@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .container {
+    width: 80vw; /* 80% of viewport width */
+    height: 400px;
+    position: relative;
+    background-color: #f0f0f0;
+    overflow: hidden;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3498db;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: bounce 4s infinite cubic-bezier(0.4, 0.8, 0.6, 1);
+  }
+  @keyframes bounce {
+    0%, 100% {
+      bottom: 0;
+      transform: translateY(0) translateX(0);
+    }
+    25% {
+      bottom: 300px; /* Height to which it will bounce */
+      transform: translateY(0) translateX(25vw); /* Move right */
+    }
+    50% {
+      bottom: 0;
+      transform: translateY(0) translateX(50vw); /* Move to the end */
+    }
+    75% {
+      bottom: 300px; /* Height to which it will bounce */
+      transform: translateY(0) translateX(75vw); /* Move back left */
+    }
+  }
+  
+  
